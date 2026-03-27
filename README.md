@@ -6,9 +6,13 @@ The core objective is to bridge the "reality gap" by allowing a resource-constra
 
 🚀 Key Features
 Autonomous Navigation: The e-puck utilizes 8 IR sensors for real-time obstacle avoidance.
+
 RGB Pre-Filter Logic: A lightweight mathematical filter (DOMINANCE_MARGIN and DOG_TOLERANCE) to detect targets without overloading the robot's CPU.
+
 Finite State Machine: Programmed in Python to handle searching, stopping, capturing .png payloads without motion blur, and evading.
+
 Custom CNN Architecture: A 4-layer Convolutional Neural Network built with TensorFlow/Keras, achieving 71% validation accuracy on CIFAR-10.
+
 Edge Optimization Proposal: A documented strategy for deploying the model using INT8 Post-Training Quantization and a decoupled Edge Server (Raspberry Pi).
 
 📁 Repository Structure
