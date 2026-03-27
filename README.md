@@ -10,6 +10,7 @@ RGB Pre-Filter Logic: A lightweight mathematical filter (DOMINANCE_MARGIN and DO
 Finite State Machine: Programmed in Python to handle searching, stopping, capturing .png payloads without motion blur, and evading.
 Custom CNN Architecture: A 4-layer Convolutional Neural Network built with TensorFlow/Keras, achieving 71% validation accuracy on CIFAR-10.
 Edge Optimization Proposal: A documented strategy for deploying the model using INT8 Post-Training Quantization and a decoupled Edge Server (Raspberry Pi).
+
 📁 Repository Structure
 /webots_controller - Contains the Python control script (capture_image.py) for the e-puck robot.
 /cnn_models - Contains the Google Colab Jupyter Notebook (.ipynb) for training and testing the CNN.
